@@ -9109,7 +9109,6 @@
 				novatek,firmware_name = "tsp_novatek/nt36523_gts8_csot.bin\0tsp_novatek/nt36523_gts8_tianma.bin";
 				novatek,resolution = <0x640 0xa00>;
 				novatek,scanoff_when_cover_closed;
-				novatek,support_dex_mode;
 				novatek,enable_settings_aot;
 				novatek,enable_sysinput_enabled;
 				novatek,regulator_panel_ldo_en = "panel_ldo_en";
