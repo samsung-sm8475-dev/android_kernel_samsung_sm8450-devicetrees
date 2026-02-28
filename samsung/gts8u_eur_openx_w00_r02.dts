@@ -9515,7 +9515,6 @@
 				sec,regulator_boot_on;
 				sec,bitmask_unload = <0x00 0x800000>;
 				enable_settings_aot;
-				support_dex_mode;
 				support_fod;
 				support_fod_lp_mode;
 				sync-reportrate-120;
@@ -10107,7 +10106,6 @@
 				sec,irq_flag = <0x2002>;
 				sec,max_coords = <0x738 0xb90>;
 				sec,firmware_name = "tsp_goodix/gt6936_gts8u.bin";
-				support_dex_mode;
 				sec,enable_sysinput_enabled;
 				support_open_short_test;
 				sec,bitmask_unload = <0x00 0x801418>;

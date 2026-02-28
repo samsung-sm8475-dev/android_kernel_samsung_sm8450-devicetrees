@@ -9464,7 +9464,6 @@
 				sec,area-size = <0x85 0x10a 0x155>;
 				sec,max_coords = <0xfff 0xfff>;
 				enable_settings_aot;
-				support_dex_mode;
 				support_mis_calibration_test;
 				support_ear_detect_mode;
 				support_input_monitor;
