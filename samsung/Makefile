@@ -87,6 +87,35 @@ SAMSUNG_WAIPIO_BOARDS += \
 	r0q_usa_openw_w00_r12.dts
 endif
 
+ifeq ($(CONFIG_SEC_PLATFORM_GTS8),y)
+SAMSUNG_WAIPIO_BOARDS += \
+	gts8_eur_openx_w00_r01.dts \
+	gts8_eur_openx_w00_r02.dts \
+	gts8_eur_openx_w00_r03.dts \
+	gts8_eur_openx_w00_r04.dts \
+	gts8_eur_openx_w00_r05.dts \
+	gts8_eur_openx_w00_r06.dts \
+	gts8_eur_openx_w00_r07.dts \
+	gts8_eur_openx_w00_r08.dts
+endif
+
+ifeq ($(CONFIG_SEC_PLATFORM_GTS8PWIFI),y)
+SAMSUNG_WAIPIO_BOARDS += \
+	gts8pwifi_eur_open_w00_r02.dts \
+	gts8pwifi_eur_open_w00_r03.dts \
+	gts8pwifi_eur_open_w00_r04.dts
+endif
+
+ifeq ($(CONFIG_SEC_PLATFORM_GTS8U),y)
+SAMSUNG_WAIPIO_BOARDS += \
+	gts8u_eur_openx_w00_r00.dts \
+	gts8u_eur_openx_w00_r01.dts \
+	gts8u_eur_openx_w00_r02.dts \
+	gts8u_eur_openx_w00_r03.dts \
+	gts8u_eur_openx_w00_r04.dts \
+	gts8u_eur_openx_w00_r05.dts \
+endif
+
 waipio-overlays-dtb-y += $(SAMSUNG_WAIPIO_BOARDS) $(WAIPIO_BASE_DTB) $(WAIPIO_APQ_BASE_DTB)
 dtb-y += $(SAMSUNG_WAIPIO_BOARDS) $(WAIPIO_BASE_DTB) $(WAIPIO_APQ_BASE_DTB)
 
