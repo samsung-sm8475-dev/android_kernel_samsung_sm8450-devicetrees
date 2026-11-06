@@ -87,6 +87,15 @@ SAMSUNG_WAIPIO_BOARDS += \
 	r0q_usa_openw_w00_r12.dts
 endif
 
+ifeq ($(CONFIG_SEC_PLATFORM_R11Q),y)
+SAMSUNG_WAIPIO_BOARDS += \
+	r11q_usa_openw_w00_r00.dts \
+	r11q_usa_openw_w00_r01.dts \
+	r11q_usa_openw_w00_r02.dts \
+	r11q_usa_openw_w00_r03.dts \
+	r11q_usa_openw_w00_r04.dts
+endif
+
 ifeq ($(CONFIG_SEC_PLATFORM_GTS8),y)
 SAMSUNG_WAIPIO_BOARDS += \
 	gts8_eur_openx_w00_r01.dts \
